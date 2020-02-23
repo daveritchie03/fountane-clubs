@@ -1,0 +1,127 @@
+.navbutton {
+    margin: 15px 50px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0px 0px;
+    width: 10rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.see {
+    background-color: #4A69BB;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+}
+li p {
+    color: #A3A2AA;
+    font-size: 20px;
+}
+li img {
+    float: right;
+    margin-left: auto;
+}
+#nav-img {
+    border-radius: 50% !important;
+    /* padding-top: 20px; */
+    height: 150px;
+    width: 150px;
+}
+
+.dashicons {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: stretch;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1.2em;
+    padding: 30px 30px 30px 30px;
+    max-width: 1280px;
+}
+.dash {
+    background-color: #4A69BB;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 2em;
+}
+.icon {
+    margin-left: auto;
+}
+.card-deck {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2em auto;
+    max-width: 1280px;
+}
+.card {
+    max-width: 420px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* overflow-x: hidden !important; */
+}
+.row {
+    margin: 1.2em auto;
+}
+.card-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(112, 112, 112, 1);
+    font-size: 23px;
+    margin-right: auto;
+}
+.card-title {
+    display: flex;
+    justify-content: flex-end;
+}
+.card-title h5 {
+    display: inline;
+}
+.card-title img {
+    margin-left: auto;
+}
+.card-text {
+    color: #4A69BB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.card-icons {
+    display: flex;
+    justify-content: space-between;
+}
+.modal-title {
+    color: #4A69BB;
+}
+.btn-primary {
+    background-color: #4A69BB;
+    color: white;
+    border-radius: 2em;
+}
+.btn-secondary {
+    border-radius: 2em;
+}
+#close {
+    margin: auto;
+    padding: 10px 2px 5px 0px;
+    float: right;
+    color: white;
+}
+.sidenav {
+    position: absolute;
+    background-color: #4A69BB;
+    display: block;
+    top: -2px;
+    left: 0px;
+    width: 500px;
+    display: flex;
+    overflow-x: hidden !important;
+    justify-content: center;
+    align-items: flex-start;
+    height: 920px;
+    background: #4A69BB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    z-index: 1;
+}
