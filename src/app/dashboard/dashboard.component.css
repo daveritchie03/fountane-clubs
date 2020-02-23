@@ -102,12 +102,6 @@ li img {
 .btn-secondary {
     border-radius: 2em;
 }
-#close {
-    margin: auto;
-    padding: 10px 2px 5px 0px;
-    float: right;
-    color: white;
-}
 .sidenav {
     position: absolute;
     background-color: #4A69BB;
@@ -124,4 +118,15 @@ li img {
     box-shadow: 0px 3px 6px #00000029;
     opacity: 1;
     z-index: 1;
+}
+.navbtns {
+    color: white;
+}
+.nav-pills {
+    background-color: white;
+    color: #4A69BB;
+    border-radius: 3em;
+}
+#close {
+    margin-left: 15rem;
 }

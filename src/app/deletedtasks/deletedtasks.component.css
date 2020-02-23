@@ -21,19 +21,10 @@ ul {
     /* flex-wrap: wrap; */
     /* justify-content: space-between; */
 }
-#close {
-    margin: auto;
-    padding: 10px 2px 5px 0px;
-    float: right;
-    color: white;
-}
+
 li p {
     color: #A3A2AA;
     font-size: 20px;
-}
-#nav-img {
-    border-radius: 50%;
-    /* padding-top: 20px; */
 }
 .dashicons {
     margin-top: 4rem;
@@ -140,4 +131,15 @@ li p {
     /* padding-top: 20px; */
     height: 150px;
     width: 150px;
+}
+#close {
+    margin-left: 15rem;
+}
+.navbtns {
+    color: white;
+}
+.nav-pills {
+    background-color: white;
+    color: #4A69BB;
+    border-radius: 3em;
 }
